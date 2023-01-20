@@ -1,0 +1,18 @@
+{
+  "name": "uxwb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "webfont": "node node_modules/webfont/dist/cli.js",
+    "release": "webfont './src/svg/*.svg' --font-name=unwb --dest=./dist/icons --template-class-name=uxwb --normalize --center-horizontally --dest-create --template='src/icons/icons.css'",
+    "demo": "webfont './src/svg/*.svg' --font-name=unwb --dest=./dist/demo --template-class-name=uxwb --normalize --center-horizontally --dest-create --template='src/icons/index.html'"
+  },
+  "engines": {
+    "node": "^16.13.0 || >=18.10.0",
+    "yarn": ">=1.21.1 <2",
+    "npm": "Please use yarn instead of NPM to install dependencies"
+  },
+  "devDependencies": {
+    "webfont": "^11.2.26"
+  }
+}
