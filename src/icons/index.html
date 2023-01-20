@@ -15,8 +15,9 @@
       }
       h1 {
         margin:0 0 20px;
-        font-size: 32px;
-        font-weight: normal;
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: center;
       }
       .icons {
         box-sizing: border-box;
@@ -28,7 +29,8 @@
       .icons__item {
         box-sizing: border-box;
         flex: 1 0 fit-content;
-        padding: 4px 0;
+        padding: 10px 0;
+        margin: 10px;
       }
       .icons__item,
       .icons__item i {
@@ -36,13 +38,22 @@
         vertical-align: middle;
       }
       .icons__item:hover {
-        color: #3c90be;
+        color: lightcoral;
       }
       .icons__item span {
         display: inline-block;
         line-height: 3em;
         margin-left: 5px;
         white-space: nowrap;
+      }
+      .x1 {
+        font-size: 1rem;
+      }
+      .x2 {
+        font-size: 2rem;
+      }
+      .x3 {
+        font-size: 3rem;
       }
       @font-face {
         font-display: block;
@@ -105,7 +116,9 @@
       <div class="icons">
           {% for glyph in glyphs %}
             <div class="icons__item">
-              <i class="{{ className }} {{ className }}-{{ glyph.name }}"></i>
+              <i class="{{ className }} {{ className }}-{{ glyph.name }} x1"></i>
+              <i class="{{ className }} {{ className }}-{{ glyph.name }} x2"></i>
+              <i class="{{ className }} {{ className }}-{{ glyph.name }} x3"></i>
               <span>.{{ className }} .{{ className }}-{{ glyph.name }}</span>
             </div>
           {% endfor %}
