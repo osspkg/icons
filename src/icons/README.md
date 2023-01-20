@@ -1,4 +1,4 @@
-# @uxwb/components
+# @uxwb/icons
 
 ## Demo
 
