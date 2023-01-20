@@ -7,7 +7,7 @@
     <style type="text/css">
       body {
         margin: 0;
-        padding:10px 20px;
+        padding:10px;
         background: #fff;
         color: #222;
         font-family:"Helvetica Neue", Arial, sans-serif;
@@ -30,7 +30,10 @@
         box-sizing: border-box;
         flex: 1 0 fit-content;
         padding: 10px 0;
-        margin: 10px;
+        margin: 10px 5px;
+        min-width: 160px;
+        max-width: 160px;
+        text-align: center;
       }
       .icons__item,
       .icons__item i {
@@ -40,11 +43,19 @@
       .icons__item:hover {
         color: lightcoral;
       }
-      .icons__item span {
+      .icons__item:hover input {
+        color: lightcoral;
+      }
+      .icons__item span, .icons__item input {
         display: inline-block;
-        line-height: 3em;
-        margin-left: 5px;
-        white-space: nowrap;
+        /*line-height: 3em;*/
+        /*margin-left: 5px;*/
+        /*white-space: nowrap;*/
+        background: transparent;
+        border: 0;
+        width: 100%;
+        text-align: center;
+        font-size: .7rem;
       }
       .x1 {
         font-size: 1rem;
@@ -112,14 +123,15 @@
     </style>
   </head>
   <body>
-    <h1>uxwb icons</h1>
+    <h1>uxwb icons ({{ glyphs.length.toString() }})</h1>
       <div class="icons">
           {% for glyph in glyphs %}
             <div class="icons__item">
               <i class="{{ className }} {{ className }}-{{ glyph.name }} x1"></i>
               <i class="{{ className }} {{ className }}-{{ glyph.name }} x2"></i>
               <i class="{{ className }} {{ className }}-{{ glyph.name }} x3"></i>
-              <span>.{{ className }} .{{ className }}-{{ glyph.name }}</span>
+<!--              <span>.{{ className }} .{{ className }}-{{ glyph.name }}</span>-->
+              <input type="text" disabled value=".{{ className }} .{{ className }}-{{ glyph.name }}">
             </div>
           {% endfor %}
       </div>
