@@ -98,6 +98,11 @@ asap@^2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==
 
+async@~0.1.22:
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/async/-/async-0.1.22.tgz#0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061"
+  integrity sha512-2tEzliJmf5fHNafNwQLJXUasGzQCVctvsNkXmnlELHwypU0p08/rHohYvkqKIjyXpx+0rkrYv6QbhJ+UF4QkBg==
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -281,6 +286,14 @@ find-up@^4.1.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+fs.notify@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/fs.notify/-/fs.notify-0.0.4.tgz#63284d45a34b52ce60088a6ddbec5b776d3c013d"
+  integrity sha512-xnulkRf31FQwC8NsU5DEYqMTeM3jZpYsTC2hHQcHlkXTubxQHDVWkau13U/oFmFXieCkai2oKTa1MhckXk2fRQ==
+  dependencies:
+    async "~0.1.22"
+    retry "~0.6.0"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -742,6 +755,11 @@ resolve@^1.10.0:
     is-core-module "^2.9.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
+
+retry@~0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.6.1.tgz#fdc90eed943fde11b893554b8cc63d0e899ba918"
+  integrity sha512-txv1qsctZq8ei9J/uCXgaKKFPjlBB0H2hvtnzw9rjKWFNUFtKh59WprXxpAeAey3/QeWwHdxMFqStPaOAgy+dA==
 
 reusify@^1.0.4:
   version "1.0.4"

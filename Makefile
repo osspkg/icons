@@ -3,6 +3,8 @@ SHELL=/bin/bash
 install:
 	yarn install --force --ignore-scripts
 
+watch:
+	yarn run watch
 
 ######################################################################
 

@@ -3,7 +3,7 @@
    viewBox="0 0 600 600"
    version="1.1"
    id="svg9724"
-   sodipodi:docname="home.svg"
+   sodipodi:docname="record.svg"
    inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
    width="600"
    height="600"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="0.84179692"
-     inkscape:cx="153.83758"
-     inkscape:cy="310.64499"
+     inkscape:zoom="0.84118632"
+     inkscape:cx="149.19406"
+     inkscape:cy="402.40788"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="0"
@@ -39,24 +39,33 @@
        originx="0"
        originy="0" />
     <sodipodi:guide
-       position="300,720"
+       position="-260,300"
+       orientation="0,-1"
+       id="guide383"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="300,520"
        orientation="1,0"
-       id="guide1112"
+       id="guide385"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-540,300"
+       position="240,520"
        orientation="0,-1"
-       id="guide399"
+       id="guide939"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="110,200"
+       position="220,80"
        orientation="0,-1"
-       id="guide401"
+       id="guide941"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
   <path
-     style="color:#000000;fill:#000000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
-     d="M 300,0 A 40.004,40.004 0 0 0 271.71484,11.714844 L 11.714844,271.71484 A 40.004,40.004 0 0 0 0,300 v 260 a 40.004,40.004 0 0 0 40,40 h 164.66602 a 40.004,40.004 0 0 0 40,-40 V 426.66602 H 355.33398 V 560 a 40.004,40.004 0 0 0 40,40 H 560 a 40.004,40.004 0 0 0 40,-40 V 300 a 40.004,40.004 0 0 0 -11.71484,-28.28516 l -260,-259.999996 A 40.004,40.004 0 0 0 300,0 Z m 0,96.568359 220,220.000001 V 520 H 435.33398 V 386.66602 a 40.004,40.004 0 0 0 -40,-40 H 204.66602 a 40.004,40.004 0 0 0 -40,40 V 520 H 80 V 316.56836 Z"
-     id="path1011" />
+     style="color:#000000;fill:#000000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+     d="M 295,0 C 234.75195,0 185,49.75195 185,110 v 140 c 0,60.24805 49.75195,110 110,110 h 10 c 60.24805,0 110,-49.75195 110,-110 V 110 C 415,49.75195 365.24805,0 305,0 Z m 0,80 h 10 c 17.31187,0 30,12.688128 30,30 v 140 c 0,17.31187 -12.68813,30 -30,30 h -10 c -17.31187,0 -30,-12.68813 -30,-30 V 110 c 0,-17.311872 12.68813,-30 30,-30 z"
+     id="rect350" />
+  <path
+     id="path1141"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none"
+     d="M 120 200 A 40 40 0 0 0 80 240 C 80 347.37033 157.91528 437.31738 260 456.26562 L 260 520 L 200 520 A 40 40 0 0 0 160 560 A 40 40 0 0 0 200 600 L 260 600 L 340 600 L 400 600 A 40 40 0 0 0 440 560 A 40 40 0 0 0 400 520 L 340 520 L 340 456.26562 C 442.08472 437.31738 520 347.37033 520 240 A 40 40 0 0 0 480 200 A 40 40 0 0 0 440 240 C 440 317.79349 377.79349 380 300 380 C 222.20651 380 160 317.79349 160 240 A 40 40 0 0 0 120 200 z " />
 </svg>

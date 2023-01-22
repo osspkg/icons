@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "watch": "node src/watch.js",
     "webfont": "node node_modules/webfont/dist/cli.js",
     "release": "webfont './src/svg/*.svg' --font-name=unwb --dest=./dist/icons --template-class-name=uxwb --normalize --center-horizontally --dest-create --template='src/icons/icons.css'",
     "demo": "webfont './src/svg/*.svg' --font-name=unwb --dest=./dist/demo --template-class-name=uxwb --normalize --center-horizontally --dest-create --template='src/icons/index.html'"
@@ -13,6 +14,7 @@
     "npm": "Please use yarn instead of NPM to install dependencies"
   },
   "devDependencies": {
+    "fs.notify": "^0.0.4",
     "webfont": "^11.2.26"
   }
 }
